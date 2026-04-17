@@ -80,7 +80,7 @@ The key trade-off is latency. Each refinement step adds a round-trip. For low-la
 Thus we can see how production systems layer all three : Episodic logic as the source of turth, vector memory for fast semantic retrieval, and structured memory for precise facts.
 
 ## Q10 
-**Stateless Services:**These take input, produce output and hold no state. Some examples are Parser Workers, Chunking Workers, Embedding Workers, and Re-ranking.
+**Stateless Services:** These take input, produce output and hold no state. Some examples are Parser Workers, Chunking Workers, Embedding Workers, and Re-ranking.
 
 **Stateful services:** Index writer must coordinate state to safely make writes without conflicts, Memory service has to rememeber what a specific user said earlier in the conversation.
 
